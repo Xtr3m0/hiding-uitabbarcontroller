@@ -1,0 +1,319 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AF1C519715DD626300AAE259 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1C519615DD626300AAE259 /* UIKit.framework */; };
+		AF1C519915DD626300AAE259 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1C519815DD626300AAE259 /* Foundation.framework */; };
+		AF1C519B15DD626300AAE259 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AF1C519A15DD626300AAE259 /* CoreGraphics.framework */; };
+		AF1C51A115DD626300AAE259 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = AF1C519F15DD626300AAE259 /* InfoPlist.strings */; };
+		AF1C51A315DD626300AAE259 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1C51A215DD626300AAE259 /* main.m */; };
+		AF1C51A715DD626300AAE259 /* DRAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1C51A615DD626300AAE259 /* DRAppDelegate.m */; };
+		AF1C51AA15DD626300AAE259 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1C51A815DD626300AAE259 /* MainStoryboard_iPhone.storyboard */; };
+		AF1C51AD15DD626300AAE259 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AF1C51AB15DD626300AAE259 /* MainStoryboard_iPad.storyboard */; };
+		AF1C51B015DD626300AAE259 /* DRFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1C51AF15DD626300AAE259 /* DRFirstViewController.m */; };
+		AF1C51B215DD626300AAE259 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1C51B115DD626300AAE259 /* first.png */; };
+		AF1C51B415DD626300AAE259 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1C51B315DD626300AAE259 /* first@2x.png */; };
+		AF1C51B715DD626300AAE259 /* DRSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AF1C51B615DD626300AAE259 /* DRSecondViewController.m */; };
+		AF1C51B915DD626300AAE259 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1C51B815DD626300AAE259 /* second.png */; };
+		AF1C51BB15DD626300AAE259 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF1C51BA15DD626300AAE259 /* second@2x.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		AF1C519215DD626300AAE259 /* hidingTabBarController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hidingTabBarController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AF1C519615DD626300AAE259 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AF1C519815DD626300AAE259 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AF1C519A15DD626300AAE259 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AF1C519E15DD626300AAE259 /* hidingTabBarController-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "hidingTabBarController-Info.plist"; sourceTree = "<group>"; };
+		AF1C51A015DD626300AAE259 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		AF1C51A215DD626300AAE259 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AF1C51A415DD626300AAE259 /* hidingTabBarController-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "hidingTabBarController-Prefix.pch"; sourceTree = "<group>"; };
+		AF1C51A515DD626300AAE259 /* DRAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRAppDelegate.h; sourceTree = "<group>"; };
+		AF1C51A615DD626300AAE259 /* DRAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRAppDelegate.m; sourceTree = "<group>"; };
+		AF1C51A915DD626300AAE259 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		AF1C51AC15DD626300AAE259 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		AF1C51AE15DD626300AAE259 /* DRFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRFirstViewController.h; sourceTree = "<group>"; };
+		AF1C51AF15DD626300AAE259 /* DRFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRFirstViewController.m; sourceTree = "<group>"; };
+		AF1C51B115DD626300AAE259 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
+		AF1C51B315DD626300AAE259 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
+		AF1C51B515DD626300AAE259 /* DRSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DRSecondViewController.h; sourceTree = "<group>"; };
+		AF1C51B615DD626300AAE259 /* DRSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DRSecondViewController.m; sourceTree = "<group>"; };
+		AF1C51B815DD626300AAE259 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
+		AF1C51BA15DD626300AAE259 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AF1C518F15DD626300AAE259 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1C519715DD626300AAE259 /* UIKit.framework in Frameworks */,
+				AF1C519915DD626300AAE259 /* Foundation.framework in Frameworks */,
+				AF1C519B15DD626300AAE259 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AF1C518715DD626300AAE259 = {
+			isa = PBXGroup;
+			children = (
+				AF1C519C15DD626300AAE259 /* hidingTabBarController */,
+				AF1C519515DD626300AAE259 /* Frameworks */,
+				AF1C519315DD626300AAE259 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AF1C519315DD626300AAE259 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AF1C519215DD626300AAE259 /* hidingTabBarController.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AF1C519515DD626300AAE259 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AF1C519615DD626300AAE259 /* UIKit.framework */,
+				AF1C519815DD626300AAE259 /* Foundation.framework */,
+				AF1C519A15DD626300AAE259 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AF1C519C15DD626300AAE259 /* hidingTabBarController */ = {
+			isa = PBXGroup;
+			children = (
+				AF1C51A515DD626300AAE259 /* DRAppDelegate.h */,
+				AF1C51A615DD626300AAE259 /* DRAppDelegate.m */,
+				AF1C51A815DD626300AAE259 /* MainStoryboard_iPhone.storyboard */,
+				AF1C51AB15DD626300AAE259 /* MainStoryboard_iPad.storyboard */,
+				AF1C51AE15DD626300AAE259 /* DRFirstViewController.h */,
+				AF1C51AF15DD626300AAE259 /* DRFirstViewController.m */,
+				AF1C51B115DD626300AAE259 /* first.png */,
+				AF1C51B315DD626300AAE259 /* first@2x.png */,
+				AF1C51B515DD626300AAE259 /* DRSecondViewController.h */,
+				AF1C51B615DD626300AAE259 /* DRSecondViewController.m */,
+				AF1C51B815DD626300AAE259 /* second.png */,
+				AF1C51BA15DD626300AAE259 /* second@2x.png */,
+				AF1C519D15DD626300AAE259 /* Supporting Files */,
+			);
+			path = hidingTabBarController;
+			sourceTree = "<group>";
+		};
+		AF1C519D15DD626300AAE259 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AF1C519E15DD626300AAE259 /* hidingTabBarController-Info.plist */,
+				AF1C519F15DD626300AAE259 /* InfoPlist.strings */,
+				AF1C51A215DD626300AAE259 /* main.m */,
+				AF1C51A415DD626300AAE259 /* hidingTabBarController-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AF1C519115DD626300AAE259 /* hidingTabBarController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF1C51BE15DD626300AAE259 /* Build configuration list for PBXNativeTarget "hidingTabBarController" */;
+			buildPhases = (
+				AF1C518E15DD626300AAE259 /* Sources */,
+				AF1C518F15DD626300AAE259 /* Frameworks */,
+				AF1C519015DD626300AAE259 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hidingTabBarController;
+			productName = hidingTabBarController;
+			productReference = AF1C519215DD626300AAE259 /* hidingTabBarController.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AF1C518915DD626300AAE259 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DR;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Planet Media";
+			};
+			buildConfigurationList = AF1C518C15DD626300AAE259 /* Build configuration list for PBXProject "hidingTabBarController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = AF1C518715DD626300AAE259;
+			productRefGroup = AF1C519315DD626300AAE259 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AF1C519115DD626300AAE259 /* hidingTabBarController */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AF1C519015DD626300AAE259 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1C51A115DD626300AAE259 /* InfoPlist.strings in Resources */,
+				AF1C51AA15DD626300AAE259 /* MainStoryboard_iPhone.storyboard in Resources */,
+				AF1C51AD15DD626300AAE259 /* MainStoryboard_iPad.storyboard in Resources */,
+				AF1C51B215DD626300AAE259 /* first.png in Resources */,
+				AF1C51B415DD626300AAE259 /* first@2x.png in Resources */,
+				AF1C51B915DD626300AAE259 /* second.png in Resources */,
+				AF1C51BB15DD626300AAE259 /* second@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AF1C518E15DD626300AAE259 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF1C51A315DD626300AAE259 /* main.m in Sources */,
+				AF1C51A715DD626300AAE259 /* DRAppDelegate.m in Sources */,
+				AF1C51B015DD626300AAE259 /* DRFirstViewController.m in Sources */,
+				AF1C51B715DD626300AAE259 /* DRSecondViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AF1C519F15DD626300AAE259 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1C51A015DD626300AAE259 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		AF1C51A815DD626300AAE259 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1C51A915DD626300AAE259 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		AF1C51AB15DD626300AAE259 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AF1C51AC15DD626300AAE259 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AF1C51BC15DD626300AAE259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AF1C51BD15DD626300AAE259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AF1C51BF15DD626300AAE259 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hidingTabBarController/hidingTabBarController-Prefix.pch";
+				INFOPLIST_FILE = "hidingTabBarController/hidingTabBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		AF1C51C015DD626300AAE259 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "hidingTabBarController/hidingTabBarController-Prefix.pch";
+				INFOPLIST_FILE = "hidingTabBarController/hidingTabBarController-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AF1C518C15DD626300AAE259 /* Build configuration list for PBXProject "hidingTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1C51BC15DD626300AAE259 /* Debug */,
+				AF1C51BD15DD626300AAE259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AF1C51BE15DD626300AAE259 /* Build configuration list for PBXNativeTarget "hidingTabBarController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AF1C51BF15DD626300AAE259 /* Debug */,
+				AF1C51C015DD626300AAE259 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AF1C518915DD626300AAE259 /* Project object */;
+}
