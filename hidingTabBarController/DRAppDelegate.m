@@ -12,9 +12,35 @@
 
 @synthesize window = _window;
 
+- (void)hideUITabBarController:(UITabBarController *)tabBarController
+{
+    CGRect screenRect = [tabBarController.view bounds];
+    if (UIInterfaceOrientationIsLandscape([[UIApplication sharedApplication] statusBarOrientation])){
+        screenRect = CGRectMake(screenRect.origin.x, screenRect.origin.y, screenRect.size.height, screenRect.size.width);
+    }
+    
+    for(UIView *view in tabBarController.view.subviews)
+    {
+        CGPoint newOrigin;
+        CGSize newSize;
+        if([view isKindOfClass:[UITabBar class]]){
+            newOrigin = CGPointMake(view.frame.origin.x, screenRect.size.height);
+            newSize = CGSizeMake(view.frame.size.width, view.frame.size.height);
+        }else{
+            newOrigin = CGPointMake(view.frame.origin.x, view.frame.origin.y);
+            newSize = CGSizeMake(view.frame.size.width, screenRect.size.height);
+        }
+        CGRect newFrame = CGRectMake(newOrigin.x, newOrigin.y, newSize.width, newSize.height);
+        [view setFrame:newFrame];
+    }
+}
+
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // Override point for customization after application launch.
+    UITabBarController *tabBarController = (UITabBarController *)self.window.rootViewController;
+    [UIView animateWithDuration:5 animations:^{
+        [self hideUITabBarController:tabBarController];
+    }];
     return YES;
 }
 							
